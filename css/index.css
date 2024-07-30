@@ -107,3 +107,37 @@ a {
     text-decoration: underline;
     font-size: 1.75rem;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+    .not-logo a {
+        font-size: 1.5rem;
+    }
+
+    .not-logo a:hover {
+        font-size: 1.75rem;
+    }
+
+    .footer-list a {
+        font-size: 1rem;
+    }
+
+    .footer-list a:hover {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header-item a img {
+        display: none;
+    }
+
+    .header-list {
+        width: 25%;
+    }
+
+    .header-list:nth-child(2) {
+        width: 75%;
+    }
+}
