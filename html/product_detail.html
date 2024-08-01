@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/product_detail.css">
+    <title>Product</title>
+</head>
+<body>
+    <div class="user-menu none">
+        <ul class="category-menu-list">
+            <li class="category-menu-item"><a href="#">Products</a></li>
+            <li class="category-menu-item"><a href="#">Profile</a></li>
+            <li class="category-menu-item"><a href="#">Top up balance</a></li>
+            <li class="category-menu-item"><a href="#">Balance 123 $</a></li>
+        </ul>
+    </div>
+
+    <div class="delete-menu none">
+        <h2>Are you sure about deletion this product?</h2>
+        <a href="?del=1">I am</a>
+    </div>
+
+    <div class="edit none">
+        <form method="post">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+            <label for="price">Price</label>
+            <input type="text" name="price" id="price">
+            <label for="description">Description</label>
+            <input type="text" name="description" id="description">
+            <button>Complete</button>
+        </form>
+    </div>
+
+    <header>
+        <div class="header">
+            <ul class="header-list">
+                <li class="header-item not-image btn-li"><button class="btn"><img class="menu" src="../images/menu.png" alt="menu"></button></li>
+                <li class="header-item not-image"><a href="#">Products</a></li>
+                <li class="header-item not-image"><a href="#">Profile</a></li>
+                <li class="header-item not-image"><a href="#">Top up balance</a></li>
+                <li class="header-item not-image"><a href="#">Balance: 123 $</a></li>
+                <li class="header-item image"><img class="img" src="../images/pfp.png" alt="pfp"></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="main">
+            <div class="product">
+                <img src="../images/car.png" alt="product-image" class="product-img">
+                <h2>Car</h2>
+                <h3>2000 $</h3>
+                <p>The best car you have ever seen!</p>
+                <div class="btns">
+                    <button class="btn-edit">Edit</button>
+                    <button class="btn-delete">Delete</button>
+                </div>
+                <a href="?sold=1">Buy</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="../js/goods_menu.js"></script>
+    <script src="../js/del-menu.js"></script>
+    <script src="../js/edit-menu.js"></script>
+</body>
+</html>
