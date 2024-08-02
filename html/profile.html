@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/profile.css">
+    <title>Profile</title>
+</head>
+<body>
+    <!-- PUT HERE USER'S ID -->
+    <input class="user_id" type="hidden" name="user_id" value="1">
+    <div class="user-menu none">
+        <ul class="category-menu-list">
+            <li class="category-menu-item"><a href="#">Your products</a></li>
+            <!-- <li class="category-menu-item"><a href="#">Profile</a></li> -->
+            <li class="category-menu-item"><a href="#">Top up balance</a></li>
+            <li class="category-menu-item"><a href="#">Balance 123 $</a></li>
+        </ul>
+    </div>
+    <header>
+        <div class="header">
+            <ul class="header-list">
+                <li class="header-item not-image btn-li"><button class="btn"><img class="menu" src="../images/menu.png" alt="menu"></button></li>
+                <li class="header-item not-image"><a href="#">Your products</a></li>
+                <!-- <li class="header-item not-image"><a href="#">Profile</a></li> -->
+                <li class="header-item not-image"><a href="#">Top up balance</a></li>
+                <li class="header-item not-image"><a href="#">Balance: 123 $</a></li>
+                <li class="header-item image"><img class="img" src="../images/pfp.png" alt="pfp"></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="sure-menu none">
+        <h2>Are you sure?</h2>
+        <label class="label-s none" for="code">Write a code we sent on your email</label>
+        <input class="input-s none" type="text" name="code" id="code">
+        <button class="sure-btn">I am</button>
+    </div>
+    <form class="bio-menu none" method="post" enctype="multipart/form-data">
+        <label for="bio-name">Name</label>
+        <input class="bio-menu-inp1" type="text" name="bio-name" id="bio-name">
+        <label for="bio-desc">Description</label>
+        <input class="bio-menu-inp2" type="text" name="bio-desc" id="bio-desc">
+        <label for="bio-ava">Name</label>
+        <input class="avatar-bio-menu" type="file" name="bio-ava" id="bio-ava">
+        <button class="bio-inside-btn">Change</button>
+    </form>
+    <main>
+        <div class="main">
+            <div class="prof">
+                <div class="bio">
+                    <img class="avatar" src="../images/pfp.png" alt="Avatar">
+                    <div class="general">
+                        <!-- MAXIMUM IS 21 CHARACTER IN NAME -->
+                        <h2 class="user-name">Pro_VladiK337_KRENDEL</h2>
+                        <p class="bio-desc">I'm the best seller in the entire world!</p>
+                        <h2 class="user-rate">Rate: 4.4</h2>
+                    </div>
+                    <div class="btns">
+                        <a class="top-up-balance" href="#">Top up balance</a>
+                        <a class="logout" href="#">Logout</a>
+                        <button class="bio-btn">Change bio</button>
+                        <button class="del-btn">Delete account</button>
+                    </div>
+                </div>
+                <div class="views">
+                    <div class="commentaries">
+                        <!-- FIVE COMMENTARIES IN ONE PAGE -->
+                        <div class="commentary">
+                            <!-- PUT HERE SELLER'S ID -->
+                            <input class="seller_id" type="hidden" name="view-id" value="1">
+                            <h2 class="view-user-name">Super_SIGMA</h2>
+                            <h3 class="view-user-rate">rate the person chose: 1</h3>
+                            <p class="view-desc">The worstest seller in the world! I've bought his car and it broke at the next day!aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo odit excepturi similique illo nihil expedita ipsa nisi aliquid, suscipit eum possimus quod quam cum. Molestiae soluta quasi libero. Consequatur, pariatur quos optio tenetur nam, tempore rem, repellat explicabo dolorum animi deserunt. Commodi perferendis repellendus, dolore possimus debitis eum sequi, ullam error a architecto, porro adipisci aspernatur iusto molestias cum earum explicabo et omnis eius illo amet tenetur! Eaque illo, vitae tempore, dolorum molestias nam cum quos laboriosam quis porro quisquam blanditiis itaque, modi consequuntur provident dignissimos. Dolor illo explicabo reiciendis porro sed ullam ipsa, pariatur impedit temporibus ut alias voluptatem?</p>
+                            <p class="people-like">3 people like this commentary</p>
+                            <p class="people-dislike">12 people don't like this commentary</p>
+                            <div class="likes">
+                                <button class="like"><img src="../images/like.png" alt="like"></button>
+                                <button class="dislike"><img src="../images/dislike.png" alt="dislike"></button>
+                            </div>
+                        </div>
+                        <div class="commentary">
+                            <h2 class="view-user-name">Super_SIGMA</h2>
+                            <h3 class="view-user-rate">rate the person chose: 1</h3>
+                            <p class="view-desc">The worstest seller in the world! I've bought his car and it broke at the next day!aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo odit excepturi similique illo nihil expedita ipsa nisi aliquid, suscipit eum possimus quod quam cum. Molestiae soluta quasi libero. Consequatur, pariatur quos optio tenetur nam, tempore rem, repellat explicabo dolorum animi deserunt. Commodi perferendis repellendus, dolore possimus debitis eum sequi, ullam error a architecto, porro adipisci aspernatur iusto molestias cum earum explicabo et omnis eius illo amet tenetur! Eaque illo, vitae tempore, dolorum molestias nam cum quos laboriosam quis porro quisquam blanditiis itaque, modi consequuntur provident dignissimos. Dolor illo explicabo reiciendis porro sed ullam ipsa, pariatur impedit temporibus ut alias voluptatem?</p>
+                            <p class="people-like">3 people like this commentary</p>
+                            <p class="people-dislike">12 people don't like this commentary</p>
+                            <div class="likes">
+                                <button class="like"><img src="../images/like.png" alt="like"></button>
+                                <button class="dislike"><img src="../images/dislike.png" alt="dislike"></button>
+                            </div>
+                        </div>
+                        <div class="commentary">
+                            <h2 class="view-user-name">Super_SIGMA</h2>
+                            <h3 class="view-user-rate">rate the person chose: 1</h3>
+                            <p class="view-desc">The worstest seller in the world! I've bought his car and it broke at the next day!aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo odit excepturi similique illo nihil expedita ipsa nisi aliquid, suscipit eum possimus quod quam cum. Molestiae soluta quasi libero. Consequatur, pariatur quos optio tenetur nam, tempore rem, repellat explicabo dolorum animi deserunt. Commodi perferendis repellendus, dolore possimus debitis eum sequi, ullam error a architecto, porro adipisci aspernatur iusto molestias cum earum explicabo et omnis eius illo amet tenetur! Eaque illo, vitae tempore, dolorum molestias nam cum quos laboriosam quis porro quisquam blanditiis itaque, modi consequuntur provident dignissimos. Dolor illo explicabo reiciendis porro sed ullam ipsa, pariatur impedit temporibus ut alias voluptatem?</p>
+                            <p class="people-like">3 people like this commentary</p>
+                            <p class="people-dislike">12 people don't like this commentary</p>
+                            <div class="likes">
+                                <button class="like"><img src="../images/like.png" alt="like"></button>
+                                <button class="dislike"><img src="../images/dislike.png" alt="dislike"></button>
+                            </div>
+                        </div>
+                        <div class="commentary">
+                            <h2 class="view-user-name">Super_SIGMA</h2>
+                            <h3 class="view-user-rate">rate the person chose: 1</h3>
+                            <p class="view-desc">The worstest seller in the world! I've bought his car and it broke at the next day!aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo odit excepturi similique illo nihil expedita ipsa nisi aliquid, suscipit eum possimus quod quam cum. Molestiae soluta quasi libero. Consequatur, pariatur quos optio tenetur nam, tempore rem, repellat explicabo dolorum animi deserunt. Commodi perferendis repellendus, dolore possimus debitis eum sequi, ullam error a architecto, porro adipisci aspernatur iusto molestias cum earum explicabo et omnis eius illo amet tenetur! Eaque illo, vitae tempore, dolorum molestias nam cum quos laboriosam quis porro quisquam blanditiis itaque, modi consequuntur provident dignissimos. Dolor illo explicabo reiciendis porro sed ullam ipsa, pariatur impedit temporibus ut alias voluptatem?</p>
+                            <p class="people-like">3 people like this commentary</p>
+                            <p class="people-dislike">12 people don't like this commentary</p>
+                            <div class="likes">
+                                <button class="like"><img src="../images/like.png" alt="like"></button>
+                                <button class="dislike"><img src="../images/dislike.png" alt="dislike"></button>
+                            </div>
+                        </div>
+                        <div class="commentary">
+                            <h2 class="view-user-name">Super_SIGMA</h2>
+                            <h3 class="view-user-rate">rate the person chose: 1</h3>
+                            <p class="view-desc">The worstest seller in the world! I've bought his car and it broke at the next day!aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo odit excepturi similique illo nihil expedita ipsa nisi aliquid, suscipit eum possimus quod quam cum. Molestiae soluta quasi libero. Consequatur, pariatur quos optio tenetur nam, tempore rem, repellat explicabo dolorum animi deserunt. Commodi perferendis repellendus, dolore possimus debitis eum sequi, ullam error a architecto, porro adipisci aspernatur iusto molestias cum earum explicabo et omnis eius illo amet tenetur! Eaque illo, vitae tempore, dolorum molestias nam cum quos laboriosam quis porro quisquam blanditiis itaque, modi consequuntur provident dignissimos. Dolor illo explicabo reiciendis porro sed ullam ipsa, pariatur impedit temporibus ut alias voluptatem?</p>
+                            <p class="people-like">3 people like this commentary</p>
+                            <p class="people-dislike">12 people don't like this commentary</p>
+                            <div class="likes">
+                                <button class="like"><img src="../images/like.png" alt="like"></button>
+                                <button class="dislike"><img src="../images/dislike.png" alt="dislike"></button>
+                            </div>
+                        </div>
+                        <div class="paginator">
+                            <a class="unenabled" href="#"><</a>
+                            <a class="pag-a current" href="#">1</a>
+                            <a class="pag-a" href="#">2</a>
+                            <a class="pag-a" href="#">3</a>
+                            <a href="#">></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="crossorigin="anonymous">
+    </script>
+    <script src="../js/goods_menu.js"></script>
+    <script src="../js/profile-delete.js"></script>
+    <script src="../js/profile-bio.js"></script>
+    <script src="../js/likordis.js"></script>
+</body>
+</html>

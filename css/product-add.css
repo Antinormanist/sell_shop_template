@@ -161,7 +161,7 @@ a {
 .form {
     height: 70%;
     display: grid;
-    grid-template-rows: repeat(10, 3rem);
+    grid-template-rows: repeat(12, 3rem);
     justify-content: center;
 }
 
@@ -185,7 +185,7 @@ a {
 }
 
 .form button {
-    grid-row-start: 10;
+    grid-row-start: 12;
 }
 /* MEDIQ QUERIES */
 
