@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/chat_detail.css">
+    <title>Chat</title>
+</head>
+<body>
+    <div class="user-menu none">
+        <ul class="category-menu-list">
+            <li class="category-menu-item"><a href="#">Your products</a></li>
+            <li class="category-menu-item"><a href="#">Profile</a></li>
+            <li class="category-menu-item"><a href="#">Top up balance</a></li>
+            <li class="category-menu-item"><a href="#">Balance 123 $</a></li>
+        </ul>
+    </div>
+    <header>
+        <div class="header">
+            <ul class="header-list">
+                <li class="header-item not-image btn-li"><button class="btn"><img class="menu" src="../images/menu.png" alt="menu"></button></li>
+                <li class="header-item not-image"><a href="#">Your products</a></li>
+                <li class="header-item not-image"><a href="#">Profile</a></li>
+                <li class="header-item not-image"><a href="#">Top up balance</a></li>
+                <li class="header-item not-image"><a href="#">Balance: 123 $</a></li>
+                <li class="header-item image"><img class="img" src="../images/pfp.png" alt="pfp"></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="main">
+            <h2>Chat with Antinormanist</h2>
+            <!-- IF NOT BLOCKED -->
+            <a href="?block=1">Block</a>
+            <!-- IF BLOCKED -->
+            <h3>You blocked that user</h3>
+            <a href="?unblock=1">Unblock</a>
+            <!-- IF NOT BLOCKED -->
+
+
+            <div class="left">
+                <p class="message-date">2024-08-3 13:30</p>
+                <p>You: По чом мобиль?</p>
+            </div>
+            <div class="right">
+                <p class="message-date">2024-08-3 13:31</p>
+                <p>Какой мобиль?</p>
+            </div>
+            
+
+
+            <!-- IF BLOCKED -->
+            <h3>User blocked you</h3>
+            <!-- IF NOT BLOCKED -->
+            <input class="user-message" type="text" name="user-message">
+            <button class="send-message">send</button>
+        </div>
+    </main>
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="crossorigin="anonymous">
+    </script>
+    <script src="../js/goods_menu.js"></script>
+    <script src="../js/message.js"></script>
+</body>
+</html>
