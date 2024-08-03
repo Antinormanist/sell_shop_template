@@ -165,7 +165,7 @@ nav form:nth-child(1) {
     justify-content: center;
 }
 
-nav form:nth-child(1) button {
+nav form:nth-child(1) a {
     background-color: #3e526b;
     border: 2px solid black;
     color: white;
@@ -178,6 +178,20 @@ nav form:nth-child(1) button:hover {
 }
 
 nav form:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+nav form:nth-child(2) button {
+    border: 2px solid #66FCF1;
+    border-radius: 15px;
+}
+
+nav form:nth-child(2) button:hover {
+    cursor: pointer;
+}
+
+nav form:nth-child(3) {
     height: 25rem;
     display: grid;
     grid-template-columns: 20% 80%;
@@ -186,11 +200,11 @@ nav form:nth-child(2) {
     font-size: 1.25rem;
 }
 
-nav form:nth-child(2) label {
+nav form:nth-child(3) label {
     align-self: center;
 }
 
-nav form:nth-child(2) label:hover {
+nav form:nth-child(3) label:hover {
     text-decoration: underline;
 }
 
